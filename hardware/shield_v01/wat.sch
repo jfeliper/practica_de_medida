@@ -218,10 +218,10 @@ F 3 "" H 10550 2100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R104
+L R R9
 U 1 1 58A0503E
 P 10060 3405
-F 0 "R104" V 10140 3405 50  0000 C CNN
+F 0 "R9" V 10140 3405 50  0000 C CNN
 F 1 "2K" V 10060 3405 50  0000 C CNN
 F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 9990 3405 50  0001 C CNN
 F 3 "" H 10060 3405 50  0000 C CNN
@@ -681,10 +681,10 @@ F 3 "" H 7940 5655 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L R R9
+L R R104
 U 1 1 59AD5987
 P 7115 5830
-F 0 "R9" V 7195 5830 50  0000 C CNN
+F 0 "R104" V 7195 5830 50  0000 C CNN
 F 1 "R18" V 7115 5830 50  0000 C CNN
 F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 7045 5830 50  0001 C CNN
 F 3 "" H 7115 5830 50  0000 C CNN
@@ -844,8 +844,6 @@ F 3 "" H 5035 7010 50  0000 C CNN
 $EndComp
 Text Label 4310 6785 0    60   ~ 0
 Ref_medida
-Text Label 1035 4030 0    60   ~ 0
-Ves_3V3
 $Comp
 L CONN_01X04 P111
 U 1 1 58A94F3F
@@ -1267,4 +1265,6 @@ Text Label 3635 7230 0    60   ~ 0
 intensidad_7
 Text Label 5395 7235 0    60   ~ 0
 intensidad_8
+Text Label 1035 3970 0    60   ~ 0
+Vpc_5V
 $EndSCHEMATC
