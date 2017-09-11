@@ -49,10 +49,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L GND #PWR2
+L GND #PWR01
 U 1 1 584D06FF
 P 1190 1000
-F 0 "#PWR2" H 1190 750 50  0001 C CNN
+F 0 "#PWR01" H 1190 750 50  0001 C CNN
 F 1 "GND" H 1190 850 50  0000 C CNN
 F 2 "" H 1190 1000 50  0000 C CNN
 F 3 "" H 1190 1000 50  0000 C CNN
@@ -60,10 +60,10 @@ F 3 "" H 1190 1000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG1
+L PWR_FLAG #FLG02
 U 1 1 584D0E54
 P 1190 950
-F 0 "#FLG1" H 1190 1045 50  0001 C CNN
+F 0 "#FLG02" H 1190 1045 50  0001 C CNN
 F 1 "PWR_FLAG" H 1190 1130 50  0000 C CNN
 F 2 "" H 1190 950 50  0000 C CNN
 F 3 "" H 1190 950 50  0000 C CNN
@@ -117,21 +117,10 @@ F 3 "" H 10100 1750 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C_Small C104
-U 1 1 58501908
-P 10100 2250
-F 0 "C104" H 10110 2320 50  0000 L CNN
-F 1 "100nF" H 10110 2170 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 10100 2250 50  0001 C CNN
-F 3 "" H 10100 2250 50  0000 C CNN
-	1    10100 2250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L GND #PWR11
+L GND #PWR03
 U 1 1 58501AA0
 P 10100 2550
-F 0 "#PWR11" H 10100 2300 50  0001 C CNN
+F 0 "#PWR03" H 10100 2300 50  0001 C CNN
 F 1 "GND" H 10100 2400 50  0000 C CNN
 F 2 "" H 10100 2550 50  0000 C CNN
 F 3 "" H 10100 2550 50  0000 C CNN
@@ -139,10 +128,10 @@ F 3 "" H 10100 2550 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG2
+L PWR_FLAG #FLG04
 U 1 1 5857A9BC
 P 1690 950
-F 0 "#FLG2" H 1690 1045 50  0001 C CNN
+F 0 "#FLG04" H 1690 1045 50  0001 C CNN
 F 1 "PWR_FLAG" H 1690 1130 50  0000 C CNN
 F 2 "" H 1690 950 50  0000 C CNN
 F 3 "" H 1690 950 50  0000 C CNN
@@ -150,10 +139,10 @@ F 3 "" H 1690 950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR6
+L VCC #PWR05
 U 1 1 5857A9F3
 P 1690 1100
-F 0 "#PWR6" H 1690 950 50  0001 C CNN
+F 0 "#PWR05" H 1690 950 50  0001 C CNN
 F 1 "VCC" H 1690 1250 50  0000 C CNN
 F 2 "" H 1690 1100 50  0000 C CNN
 F 3 "" H 1690 1100 50  0000 C CNN
@@ -161,10 +150,10 @@ F 3 "" H 1690 1100 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR3
+L GND #PWR06
 U 1 1 5857C83E
 P 1265 2375
-F 0 "#PWR3" H 1265 2125 50  0001 C CNN
+F 0 "#PWR06" H 1265 2125 50  0001 C CNN
 F 1 "GND" H 1265 2225 50  0000 C CNN
 F 2 "" H 1265 2375 50  0000 C CNN
 F 3 "" H 1265 2375 50  0000 C CNN
@@ -185,10 +174,10 @@ F 3 "" H 1460 3015 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR5
+L GND #PWR07
 U 1 1 5872416F
 P 1460 3515
-F 0 "#PWR5" H 1460 3265 50  0001 C CNN
+F 0 "#PWR07" H 1460 3265 50  0001 C CNN
 F 1 "GND" H 1460 3365 50  0000 C CNN
 F 2 "" H 1460 3515 50  0000 C CNN
 F 3 "" H 1460 3515 50  0000 C CNN
@@ -229,10 +218,10 @@ F 3 "" H 10060 3405 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR12
+L GND #PWR08
 U 1 1 58A05050
 P 10160 3880
-F 0 "#PWR12" H 10160 3630 50  0001 C CNN
+F 0 "#PWR08" H 10160 3630 50  0001 C CNN
 F 1 "GND" H 10160 3730 50  0000 C CNN
 F 2 "" H 10160 3880 50  0000 C CNN
 F 3 "" H 10160 3880 50  0000 C CNN
@@ -256,7 +245,7 @@ U 1 1 58A1C097
 P 1985 3240
 F 0 "C106" H 2010 3340 50  0000 L CNN
 F 1 "22uF" H 2010 3140 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2" H 1985 3240 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 1985 3240 50  0001 C CNN
 F 3 "" H 1985 3240 50  0000 C CNN
 	1    1985 3240
 	1    0    0    -1  
@@ -267,7 +256,7 @@ U 1 1 58A1D1FB
 P 1815 2075
 F 0 "C105" H 1840 2175 50  0000 L CNN
 F 1 "220uF" H 1840 1975 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2" H 1815 2075 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 1815 2075 50  0001 C CNN
 F 3 "" H 1815 2075 50  0000 C CNN
 	1    1815 2075
 	1    0    0    -1  
@@ -313,10 +302,10 @@ sda
 Text Label 8225 1340 0    60   ~ 0
 scl
 $Comp
-L GND #PWR10
+L GND #PWR09
 U 1 1 58A94056
 P 8725 1140
-F 0 "#PWR10" H 8725 890 50  0001 C CNN
+F 0 "#PWR09" H 8725 890 50  0001 C CNN
 F 1 "GND" H 8725 990 50  0000 C CNN
 F 2 "" H 8725 1140 50  0000 C CNN
 F 3 "" H 8725 1140 50  0000 C CNN
@@ -343,10 +332,10 @@ e_rst
 Text Label 3580 1720 0    60   ~ 0
 18b20
 $Comp
-L GND #PWR8
+L GND #PWR010
 U 1 1 58A9B29F
 P 5580 3195
-F 0 "#PWR8" H 5580 2945 50  0001 C CNN
+F 0 "#PWR010" H 5580 2945 50  0001 C CNN
 F 1 "GND" H 5580 3045 50  0000 C CNN
 F 2 "" H 5580 3195 50  0000 C CNN
 F 3 "" H 5580 3195 50  0000 C CNN
@@ -404,17 +393,6 @@ Text Label 6580 4395 2    60   ~ 0
 e_rst
 Text Label 885  2965 0    60   ~ 0
 Var_8V
-$Comp
-L C_Small C108
-U 1 1 58AAD2FF
-P 2335 3240
-F 0 "C108" H 2210 3340 50  0000 L CNN
-F 1 "100nF" H 2060 3140 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 2335 3240 50  0001 C CNN
-F 3 "" H 2335 3240 50  0000 C CNN
-	1    2335 3240
-	-1   0    0    -1  
-$EndComp
 NoConn ~ 4030 1620
 Text Label 9400 2050 0    60   ~ 0
 caudal_1
@@ -457,10 +435,10 @@ Text Label 3580 1520 0    60   ~ 0
 caudal_1
 NoConn ~ 6755 1320
 $Comp
-L GND #PWR9
+L GND #PWR011
 U 1 1 58BE924F
 P 6905 1220
-F 0 "#PWR9" H 6905 970 50  0001 C CNN
+F 0 "#PWR011" H 6905 970 50  0001 C CNN
 F 1 "GND" H 6905 1070 50  0000 C CNN
 F 2 "" H 6905 1220 50  0000 C CNN
 F 3 "" H 6905 1220 50  0000 C CNN
@@ -481,10 +459,10 @@ F 3 "" H 7005 4045 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR7
+L GND #PWR012
 U 1 1 58C1BA7B
 P 3855 4145
-F 0 "#PWR7" H 3855 3895 50  0001 C CNN
+F 0 "#PWR012" H 3855 3895 50  0001 C CNN
 F 1 "GND" H 3855 3995 50  0000 C CNN
 F 2 "" H 3855 4145 50  0000 C CNN
 F 3 "" H 3855 4145 50  0000 C CNN
@@ -524,7 +502,7 @@ U 1 1 59AD144A
 P 1360 4770
 F 0 "C101" H 1385 4870 50  0000 L CNN
 F 1 "22uF" H 1385 4670 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2" H 1398 4620 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 1398 4620 50  0001 C CNN
 F 3 "" H 1360 4770 50  0000 C CNN
 	1    1360 4770
 	1    0    0    -1  
@@ -541,10 +519,10 @@ F 3 "" H 1035 4770 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR4
+L GND #PWR013
 U 1 1 59AD1454
 P 1360 5015
-F 0 "#PWR4" H 1360 4765 50  0001 C CNN
+F 0 "#PWR013" H 1360 4765 50  0001 C CNN
 F 1 "GND" H 1360 4865 50  0000 C CNN
 F 2 "" H 1360 5015 50  0000 C CNN
 F 3 "" H 1360 5015 50  0000 C CNN
@@ -552,10 +530,10 @@ F 3 "" H 1360 5015 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR1
+L GND #PWR014
 U 1 1 59AD1455
 P 1035 5010
-F 0 "#PWR1" H 1035 4760 50  0001 C CNN
+F 0 "#PWR014" H 1035 4760 50  0001 C CNN
 F 1 "GND" H 1035 4860 50  0000 C CNN
 F 2 "" H 1035 5010 50  0000 C CNN
 F 3 "" H 1035 5010 50  0000 C CNN
@@ -616,7 +594,7 @@ U 1 1 59AD4A91
 P 3955 5845
 F 0 "C4" H 3980 5945 50  0000 L CNN
 F 1 "100nF" H 3980 5745 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 3993 5695 50  0001 C CNN
+F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 3993 5695 50  0001 C CNN
 F 3 "" H 3955 5845 50  0000 C CNN
 	1    3955 5845
 	1    0    0    -1  
@@ -651,7 +629,7 @@ U 1 1 59AD51B8
 P 5645 5845
 F 0 "C6" H 5670 5945 50  0000 L CNN
 F 1 "100nF" H 5670 5745 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 5683 5695 50  0001 C CNN
+F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 5683 5695 50  0001 C CNN
 F 3 "" H 5645 5845 50  0000 C CNN
 	1    5645 5845
 	1    0    0    -1  
@@ -675,82 +653,12 @@ U 1 1 59AD598D
 P 7440 5830
 F 0 "C7" H 7465 5930 50  0000 L CNN
 F 1 "100nF" H 7465 5730 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 7478 5680 50  0001 C CNN
+F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 7478 5680 50  0001 C CNN
 F 3 "" H 7440 5830 50  0000 C CNN
 	1    7440 5830
 	1    0    0    -1  
 $EndComp
 Text Label 6715 5605 0    60   ~ 0
-Ref_medida
-$Comp
-L CONN_01X02 P7
-U 1 1 59AD59A7
-P 9690 5660
-F 0 "P7" H 9690 5810 50  0000 C CNN
-F 1 "PINZA_5" V 9790 5660 50  0000 C CNN
-F 2 "Connect:bornier2" H 9690 5660 50  0001 C CNN
-F 3 "" H 9690 5660 50  0000 C CNN
-	1    9690 5660
-	1    0    0    1   
-$EndComp
-$Comp
-L R R10
-U 1 1 59AD59AD
-P 8865 5835
-F 0 "R10" V 8945 5835 50  0000 C CNN
-F 1 "R18" V 8865 5835 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 8795 5835 50  0001 C CNN
-F 3 "" H 8865 5835 50  0000 C CNN
-	1    8865 5835
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C8
-U 1 1 59AD59B3
-P 9190 5835
-F 0 "C8" H 9215 5935 50  0000 L CNN
-F 1 "100nF" H 9215 5735 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 9228 5685 50  0001 C CNN
-F 3 "" H 9190 5835 50  0000 C CNN
-	1    9190 5835
-	1    0    0    -1  
-$EndComp
-Text Label 8465 5610 0    60   ~ 0
-Ref_medida
-$Comp
-L CONN_01X02 P8
-U 1 1 59AD59BA
-P 2025 6820
-F 0 "P8" H 2025 6970 50  0000 C CNN
-F 1 "PINZA_6" V 2125 6820 50  0000 C CNN
-F 2 "Connect:bornier2" H 2025 6820 50  0001 C CNN
-F 3 "" H 2025 6820 50  0000 C CNN
-	1    2025 6820
-	1    0    0    1   
-$EndComp
-$Comp
-L R R11
-U 1 1 59AD59C0
-P 1200 6995
-F 0 "R11" V 1280 6995 50  0000 C CNN
-F 1 "R18" V 1200 6995 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 1130 6995 50  0001 C CNN
-F 3 "" H 1200 6995 50  0000 C CNN
-	1    1200 6995
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C9
-U 1 1 59AD59C6
-P 1525 6995
-F 0 "C9" H 1550 7095 50  0000 L CNN
-F 1 "100nF" H 1550 6895 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 1563 6845 50  0001 C CNN
-F 3 "" H 1525 6995 50  0000 C CNN
-	1    1525 6995
-	1    0    0    -1  
-$EndComp
-Text Label 800  6770 0    60   ~ 0
 Ref_medida
 $Comp
 L CONN_01X02 P2
@@ -775,41 +683,6 @@ F 3 "" H 2960 7005 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 2560 6780 0    60   ~ 0
-Ref_medida
-$Comp
-L CONN_01X02 P4
-U 1 1 59AD6243
-P 5535 6835
-F 0 "P4" H 5535 6985 50  0000 C CNN
-F 1 "PINZA_8" V 5635 6835 50  0000 C CNN
-F 2 "Connect:bornier2" H 5535 6835 50  0001 C CNN
-F 3 "" H 5535 6835 50  0000 C CNN
-	1    5535 6835
-	1    0    0    1   
-$EndComp
-$Comp
-L R R7
-U 1 1 59AD6249
-P 4710 7010
-F 0 "R7" V 4790 7010 50  0000 C CNN
-F 1 "R18" V 4710 7010 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 4640 7010 50  0001 C CNN
-F 3 "" H 4710 7010 50  0000 C CNN
-	1    4710 7010
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C5
-U 1 1 59AD624F
-P 5035 7010
-F 0 "C5" H 5060 7110 50  0000 L CNN
-F 1 "100nF" H 5060 6910 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 5073 6860 50  0001 C CNN
-F 3 "" H 5035 7010 50  0000 C CNN
-	1    5035 7010
-	1    0    0    -1  
-$EndComp
-Text Label 4310 6785 0    60   ~ 0
 Ref_medida
 $Comp
 L CONN_01X04 P111
@@ -837,10 +710,6 @@ Text Label 6765 1625 0    60   ~ 0
 intensidad_7
 Text Label 6760 1525 0    60   ~ 0
 intensidad_8
-Text Label 6765 1725 0    60   ~ 0
-inten_6_SCL
-Text Label 6765 1825 0    60   ~ 0
-inten_5_SDA
 Text Label 6765 1925 0    60   ~ 0
 intensidad_4
 Text Label 6765 2025 0    60   ~ 0
@@ -849,373 +718,6 @@ Text Label 6765 2125 0    60   ~ 0
 intensidad_2
 Text Label 6765 2225 0    60   ~ 0
 intensidad_1
-$Comp
-L CONN_01X03 P10
-U 1 1 59AD89D6
-P 7990 2045
-F 0 "P10" H 7990 2245 50  0000 C CNN
-F 1 "SCL-INT6" V 8090 2045 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 7990 2045 50  0001 C CNN
-F 3 "" H 7990 2045 50  0000 C CNN
-	1    7990 2045
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5355 4995 5905 4995
-Wire Wire Line
-	1190 950  1190 1000
-Wire Wire Line
-	6255 4295 6755 4295
-Wire Wire Line
-	6255 4095 6755 4095
-Wire Wire Line
-	6255 3995 6755 3995
-Wire Wire Line
-	6255 3895 6755 3895
-Wire Wire Line
-	6255 3795 6755 3795
-Wire Wire Line
-	3855 3795 4455 3795
-Wire Wire Line
-	4155 3995 4455 3995
-Wire Wire Line
-	4155 4095 4455 4095
-Wire Wire Line
-	4155 4195 4455 4195
-Wire Wire Line
-	1690 950  1690 1100
-Wire Wire Line
-	6255 4195 7005 4195
-Wire Wire Line
-	1860 2965 2735 2965
-Wire Wire Line
-	10100 1900 10100 2150
-Wire Wire Line
-	10100 2350 10100 2550
-Wire Wire Line
-	9400 2050 10350 2050
-Connection ~ 10100 2050
-Wire Wire Line
-	10350 2150 10350 2450
-Wire Wire Line
-	10350 2450 10100 2450
-Connection ~ 10100 2450
-Wire Wire Line
-	4155 4295 4455 4295
-Wire Wire Line
-	4155 4395 4455 4395
-Wire Wire Line
-	6255 4395 6755 4395
-Wire Wire Line
-	885  2965 1060 2965
-Wire Wire Line
-	1460 3265 1460 3515
-Wire Wire Line
-	10385 3805 10160 3805
-Wire Wire Line
-	10160 3805 10160 3880
-Wire Wire Line
-	9710 3705 10385 3705
-Wire Wire Line
-	10060 3555 10060 3705
-Connection ~ 10060 3705
-Wire Wire Line
-	10060 3105 10060 3255
-Wire Wire Line
-	10060 3205 10235 3205
-Wire Wire Line
-	10235 3205 10235 3605
-Wire Wire Line
-	10235 3605 10385 3605
-Connection ~ 10060 3205
-Wire Wire Line
-	1985 2965 1985 3090
-Connection ~ 1985 2965
-Wire Wire Line
-	1985 3390 1985 3490
-Wire Wire Line
-	1460 3490 2335 3490
-Connection ~ 1460 3490
-Wire Wire Line
-	8200 1440 8500 1440
-Wire Wire Line
-	8200 1340 8500 1340
-Wire Wire Line
-	8200 1240 8500 1240
-Wire Wire Line
-	8200 1140 8725 1140
-Wire Wire Line
-	3730 1820 4030 1820
-Wire Wire Line
-	3730 1920 4030 1920
-Wire Wire Line
-	3730 2020 4030 2020
-Wire Wire Line
-	5355 3195 5580 3195
-Wire Wire Line
-	1265 1825 1390 1825
-Wire Wire Line
-	2335 2965 2335 3140
-Connection ~ 2335 2965
-Wire Wire Line
-	2335 3490 2335 3340
-Connection ~ 1985 3490
-Wire Wire Line
-	3580 1520 4030 1520
-Wire Wire Line
-	4030 1720 3580 1720
-Connection ~ 2160 2965
-Wire Wire Line
-	6755 1220 6905 1220
-Wire Wire Line
-	6755 1120 7355 1120
-Wire Wire Line
-	6755 1420 7355 1420
-Wire Wire Line
-	7005 3820 7005 3895
-Wire Wire Line
-	3855 4095 3855 4145
-Wire Wire Line
-	4155 3895 4455 3895
-Wire Wire Line
-	1690 1825 2465 1825
-Connection ~ 1815 1825
-Wire Wire Line
-	1265 1925 1265 2375
-Wire Wire Line
-	1265 2300 1815 2300
-Wire Wire Line
-	1815 2300 1815 2225
-Wire Wire Line
-	1815 1825 1815 1925
-Connection ~ 1265 2300
-Wire Wire Line
-	1035 3870 1035 4095
-Wire Wire Line
-	1035 4395 1035 4620
-Connection ~ 1035 4495
-Wire Wire Line
-	1360 4620 1360 4495
-Connection ~ 1360 4495
-Wire Wire Line
-	1880 6065 2955 6065
-Wire Wire Line
-	2505 6065 2505 5715
-Connection ~ 2505 6065
-Wire Wire Line
-	1880 5690 1880 5615
-Connection ~ 1880 5615
-Wire Wire Line
-	1880 5990 1880 6065
-Wire Wire Line
-	2205 5615 2205 5690
-Connection ~ 2205 5615
-Wire Wire Line
-	2205 5990 2205 6065
-Connection ~ 2205 6065
-Wire Wire Line
-	1035 4495 1930 4495
-Wire Wire Line
-	1930 4495 1930 4490
-Wire Wire Line
-	2505 5615 1465 5615
-Wire Wire Line
-	1465 5615 1465 5620
-Wire Wire Line
-	3630 6070 4705 6070
-Wire Wire Line
-	4255 6070 4255 5720
-Connection ~ 4255 6070
-Wire Wire Line
-	3630 5695 3630 5620
-Connection ~ 3630 5620
-Wire Wire Line
-	3630 5995 3630 6070
-Wire Wire Line
-	3955 5620 3955 5695
-Connection ~ 3955 5620
-Wire Wire Line
-	3955 5995 3955 6070
-Connection ~ 3955 6070
-Wire Wire Line
-	4255 5620 3215 5620
-Wire Wire Line
-	3215 5620 3215 5625
-Wire Wire Line
-	5320 6070 6395 6070
-Wire Wire Line
-	5945 6070 5945 5720
-Connection ~ 5945 6070
-Wire Wire Line
-	5320 5695 5320 5620
-Connection ~ 5320 5620
-Wire Wire Line
-	5320 5995 5320 6070
-Wire Wire Line
-	5645 5620 5645 5695
-Connection ~ 5645 5620
-Wire Wire Line
-	5645 5995 5645 6070
-Connection ~ 5645 6070
-Wire Wire Line
-	5945 5620 4905 5620
-Wire Wire Line
-	4905 5620 4905 5625
-Wire Wire Line
-	7115 6055 8190 6055
-Wire Wire Line
-	7740 6055 7740 5705
-Connection ~ 7740 6055
-Wire Wire Line
-	7115 5680 7115 5605
-Connection ~ 7115 5605
-Wire Wire Line
-	7115 5980 7115 6055
-Wire Wire Line
-	7440 5605 7440 5680
-Connection ~ 7440 5605
-Wire Wire Line
-	7440 5980 7440 6055
-Connection ~ 7440 6055
-Wire Wire Line
-	7740 5605 6700 5605
-Wire Wire Line
-	6700 5605 6700 5610
-Wire Wire Line
-	8865 6060 9940 6060
-Wire Wire Line
-	9490 6060 9490 5710
-Connection ~ 9490 6060
-Wire Wire Line
-	8865 5685 8865 5610
-Connection ~ 8865 5610
-Wire Wire Line
-	8865 5985 8865 6060
-Wire Wire Line
-	9190 5610 9190 5685
-Connection ~ 9190 5610
-Wire Wire Line
-	9190 5985 9190 6060
-Connection ~ 9190 6060
-Wire Wire Line
-	9490 5610 8450 5610
-Wire Wire Line
-	8450 5610 8450 5615
-Wire Wire Line
-	1200 7220 2275 7220
-Wire Wire Line
-	1825 7220 1825 6870
-Connection ~ 1825 7220
-Wire Wire Line
-	1200 6845 1200 6770
-Connection ~ 1200 6770
-Wire Wire Line
-	1200 7145 1200 7220
-Wire Wire Line
-	1525 6770 1525 6845
-Connection ~ 1525 6770
-Wire Wire Line
-	1525 7145 1525 7220
-Connection ~ 1525 7220
-Wire Wire Line
-	1825 6770 785  6770
-Wire Wire Line
-	10140 5610 10140 5615
-Wire Wire Line
-	2960 7230 4035 7230
-Wire Wire Line
-	3585 7230 3585 6880
-Connection ~ 3585 7230
-Wire Wire Line
-	2960 6855 2960 6780
-Connection ~ 2960 6780
-Wire Wire Line
-	2960 7155 2960 7230
-Wire Wire Line
-	3285 6780 3285 6855
-Connection ~ 3285 6780
-Wire Wire Line
-	3285 7155 3285 7230
-Connection ~ 3285 7230
-Wire Wire Line
-	3585 6780 2545 6780
-Wire Wire Line
-	2545 6780 2545 6785
-Wire Wire Line
-	4710 7235 5785 7235
-Wire Wire Line
-	5335 7235 5335 6885
-Connection ~ 5335 7235
-Wire Wire Line
-	4710 6860 4710 6785
-Connection ~ 4710 6785
-Wire Wire Line
-	4710 7160 4710 7235
-Wire Wire Line
-	5035 6785 5035 6860
-Connection ~ 5035 6785
-Wire Wire Line
-	5035 7160 5035 7235
-Connection ~ 5035 7235
-Wire Wire Line
-	5335 6785 4295 6785
-Wire Wire Line
-	4295 6785 4295 6790
-Wire Wire Line
-	1035 4920 1035 5010
-Wire Wire Line
-	1360 4920 1360 5015
-Wire Wire Line
-	6755 1825 7370 1825
-Wire Wire Line
-	6755 1725 7370 1725
-Wire Wire Line
-	6755 1625 7370 1625
-Wire Wire Line
-	6755 1525 7370 1525
-Wire Wire Line
-	6755 1925 7370 1925
-Wire Wire Line
-	6755 2025 7370 2025
-Wire Wire Line
-	6755 2125 7370 2125
-Wire Wire Line
-	6755 2225 7370 2225
-Wire Wire Line
-	8190 2045 8910 2045
-Wire Wire Line
-	8190 2145 8910 2145
-Wire Wire Line
-	8190 1945 8910 1945
-$Comp
-L CONN_01X03 P11
-U 1 1 59ADA440
-P 8000 2685
-F 0 "P11" H 8000 2885 50  0000 C CNN
-F 1 "SDA-INT5" V 8100 2685 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 8000 2685 50  0001 C CNN
-F 3 "" H 8000 2685 50  0000 C CNN
-	1    8000 2685
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8200 2685 8920 2685
-Wire Wire Line
-	8200 2785 8920 2785
-Wire Wire Line
-	8200 2585 8920 2585
-Text Label 8275 2685 0    60   ~ 0
-inten_5_SDA
-Text Label 8245 2045 0    60   ~ 0
-inten_6_SCL
-Text Label 8255 1945 0    60   ~ 0
-scl
-Text Label 8285 2585 0    60   ~ 0
-sda
-Text Label 8275 2785 0    60   ~ 0
-intensidad_5
-Text Label 8250 2145 0    60   ~ 0
-intensidad_6
 Text Label 2560 6065 0    60   ~ 0
 intensidad_1
 Text Label 4320 6070 0    60   ~ 0
@@ -1224,14 +726,8 @@ Text Label 6025 6070 0    60   ~ 0
 intensidad_3
 Text Label 7830 6055 0    60   ~ 0
 intensidad_4
-Text Label 9560 6060 0    60   ~ 0
-intensidad_5
-Text Label 1880 7220 0    60   ~ 0
-intensidad_6
 Text Label 3635 7230 0    60   ~ 0
 intensidad_7
-Text Label 5395 7235 0    60   ~ 0
-intensidad_8
 Text Label 1035 3970 0    60   ~ 0
 Vpc_5V
 $Comp
@@ -1251,7 +747,7 @@ U 1 1 59AFE00D
 P 2205 5845
 F 0 "C1" H 2230 5945 50  0000 L CNN
 F 1 "100nF" H 2230 5745 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 2243 5695 50  0001 C CNN
+F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 2243 5695 50  0001 C CNN
 F 3 "" H 2205 5845 50  0000 C CNN
 	1    2205 5845
 	1    0    0    -1  
@@ -1262,9 +758,353 @@ U 1 1 59AFE386
 P 3285 7005
 F 0 "C2" H 3310 7105 50  0000 L CNN
 F 1 "100nF" H 3310 6905 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 3323 6855 50  0001 C CNN
+F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 3323 6855 50  0001 C CNN
 F 3 "" H 3285 7005 50  0000 C CNN
 	1    3285 7005
 	1    0    0    -1  
+$EndComp
+Text Label 5395 7235 0    60   ~ 0
+intensidad_8
+Text Label 4310 6785 0    60   ~ 0
+Ref_medida
+$Comp
+L C C5
+U 1 1 59AD624F
+P 5035 7010
+F 0 "C5" H 5060 7110 50  0000 L CNN
+F 1 "100nF" H 5060 6910 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 5073 6860 50  0001 C CNN
+F 3 "" H 5035 7010 50  0000 C CNN
+	1    5035 7010
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 59AD6249
+P 4710 7010
+F 0 "R7" V 4790 7010 50  0000 C CNN
+F 1 "R18" V 4710 7010 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 4640 7010 50  0001 C CNN
+F 3 "" H 4710 7010 50  0000 C CNN
+	1    4710 7010
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P4
+U 1 1 59AD6243
+P 5535 6835
+F 0 "P4" H 5535 6985 50  0000 C CNN
+F 1 "PINZA_8" V 5635 6835 50  0000 C CNN
+F 2 "Connect:bornier2" H 5535 6835 50  0001 C CNN
+F 3 "" H 5535 6835 50  0000 C CNN
+	1    5535 6835
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5335 7235 5335 6885
+Wire Wire Line
+	4710 6860 4710 6785
+Connection ~ 4710 6785
+Wire Wire Line
+	5035 6785 5035 6860
+Connection ~ 5035 6785
+Wire Wire Line
+	5335 6785 4295 6785
+Wire Wire Line
+	4295 6785 4295 6790
+Wire Wire Line
+	4710 7235 5785 7235
+Connection ~ 5335 7235
+Wire Wire Line
+	4710 7160 4710 7235
+Wire Wire Line
+	5035 7160 5035 7235
+Connection ~ 5035 7235
+Connection ~ 2205 6065
+Wire Wire Line
+	2205 5995 2205 6065
+Connection ~ 2205 5615
+Wire Wire Line
+	2205 5695 2205 5615
+Wire Wire Line
+	6755 2225 7370 2225
+Wire Wire Line
+	6755 2125 7370 2125
+Wire Wire Line
+	6755 2025 7370 2025
+Wire Wire Line
+	6755 1925 7370 1925
+Wire Wire Line
+	6755 1525 7370 1525
+Wire Wire Line
+	6755 1625 7370 1625
+Wire Wire Line
+	6755 1725 7370 1725
+Wire Wire Line
+	6755 1825 7370 1825
+Wire Wire Line
+	1360 4920 1360 5015
+Wire Wire Line
+	1035 4920 1035 5010
+Wire Wire Line
+	2545 6780 2545 6785
+Wire Wire Line
+	3585 6780 2545 6780
+Connection ~ 3285 7230
+Wire Wire Line
+	3285 7155 3285 7230
+Connection ~ 3285 6780
+Wire Wire Line
+	3285 6780 3285 6855
+Wire Wire Line
+	2960 7155 2960 7230
+Connection ~ 2960 6780
+Wire Wire Line
+	2960 6855 2960 6780
+Connection ~ 3585 7230
+Wire Wire Line
+	3585 7230 3585 6880
+Wire Wire Line
+	2960 7230 4035 7230
+Wire Wire Line
+	6700 5605 6700 5610
+Wire Wire Line
+	7740 5605 6700 5605
+Connection ~ 7440 6055
+Wire Wire Line
+	7440 5980 7440 6055
+Connection ~ 7440 5605
+Wire Wire Line
+	7440 5605 7440 5680
+Wire Wire Line
+	7115 5980 7115 6055
+Connection ~ 7115 5605
+Wire Wire Line
+	7115 5680 7115 5605
+Connection ~ 7740 6055
+Wire Wire Line
+	7740 6055 7740 5705
+Wire Wire Line
+	7115 6055 8190 6055
+Wire Wire Line
+	4905 5620 4905 5625
+Wire Wire Line
+	5945 5620 4905 5620
+Connection ~ 5645 6070
+Wire Wire Line
+	5645 5995 5645 6070
+Connection ~ 5645 5620
+Wire Wire Line
+	5645 5620 5645 5695
+Wire Wire Line
+	5320 5995 5320 6070
+Connection ~ 5320 5620
+Wire Wire Line
+	5320 5695 5320 5620
+Connection ~ 5945 6070
+Wire Wire Line
+	5945 6070 5945 5720
+Wire Wire Line
+	5320 6070 6395 6070
+Wire Wire Line
+	3215 5620 3215 5625
+Wire Wire Line
+	4255 5620 3215 5620
+Connection ~ 3955 6070
+Wire Wire Line
+	3955 5995 3955 6070
+Connection ~ 3955 5620
+Wire Wire Line
+	3955 5620 3955 5695
+Wire Wire Line
+	3630 5995 3630 6070
+Connection ~ 3630 5620
+Wire Wire Line
+	3630 5695 3630 5620
+Connection ~ 4255 6070
+Wire Wire Line
+	4255 6070 4255 5720
+Wire Wire Line
+	3630 6070 4705 6070
+Wire Wire Line
+	1465 5615 1465 5620
+Wire Wire Line
+	2505 5615 1465 5615
+Wire Wire Line
+	1930 4495 1930 4490
+Wire Wire Line
+	1035 4495 1930 4495
+Wire Wire Line
+	1880 5990 1880 6065
+Connection ~ 1880 5615
+Wire Wire Line
+	1880 5690 1880 5615
+Connection ~ 2505 6065
+Wire Wire Line
+	2505 6065 2505 5715
+Wire Wire Line
+	1880 6065 2955 6065
+Connection ~ 1360 4495
+Wire Wire Line
+	1360 4620 1360 4495
+Connection ~ 1035 4495
+Wire Wire Line
+	1035 4395 1035 4620
+Wire Wire Line
+	1035 3870 1035 4095
+Connection ~ 1265 2300
+Wire Wire Line
+	1815 1825 1815 1925
+Wire Wire Line
+	1815 2300 1815 2225
+Wire Wire Line
+	1265 2300 1815 2300
+Wire Wire Line
+	1265 1925 1265 2375
+Connection ~ 1815 1825
+Wire Wire Line
+	1690 1825 2465 1825
+Wire Wire Line
+	4155 3895 4455 3895
+Wire Wire Line
+	3855 4095 3855 4145
+Wire Wire Line
+	7005 3820 7005 3895
+Wire Wire Line
+	6755 1420 7355 1420
+Wire Wire Line
+	6755 1120 7355 1120
+Wire Wire Line
+	6755 1220 6905 1220
+Connection ~ 2160 2965
+Wire Wire Line
+	4030 1720 3580 1720
+Wire Wire Line
+	3580 1520 4030 1520
+Connection ~ 1985 3490
+Wire Wire Line
+	2335 3490 2335 3340
+Connection ~ 2335 2965
+Wire Wire Line
+	2335 2965 2335 3140
+Wire Wire Line
+	1265 1825 1390 1825
+Wire Wire Line
+	5355 3195 5580 3195
+Wire Wire Line
+	3730 2020 4030 2020
+Wire Wire Line
+	3730 1920 4030 1920
+Wire Wire Line
+	3730 1820 4030 1820
+Wire Wire Line
+	8200 1140 8725 1140
+Wire Wire Line
+	8200 1240 8500 1240
+Wire Wire Line
+	8200 1340 8500 1340
+Wire Wire Line
+	8200 1440 8500 1440
+Connection ~ 1460 3490
+Wire Wire Line
+	1460 3490 2335 3490
+Wire Wire Line
+	1985 3390 1985 3490
+Connection ~ 1985 2965
+Wire Wire Line
+	1985 2965 1985 3090
+Connection ~ 10060 3205
+Wire Wire Line
+	10235 3605 10385 3605
+Wire Wire Line
+	10235 3205 10235 3605
+Wire Wire Line
+	10060 3205 10235 3205
+Wire Wire Line
+	10060 3105 10060 3255
+Connection ~ 10060 3705
+Wire Wire Line
+	10060 3555 10060 3705
+Wire Wire Line
+	9710 3705 10385 3705
+Wire Wire Line
+	10160 3805 10160 3880
+Wire Wire Line
+	10385 3805 10160 3805
+Wire Wire Line
+	1460 3265 1460 3515
+Wire Wire Line
+	885  2965 1060 2965
+Wire Wire Line
+	6255 4395 6755 4395
+Wire Wire Line
+	4155 4395 4455 4395
+Wire Wire Line
+	4155 4295 4455 4295
+Connection ~ 10100 2450
+Wire Wire Line
+	10350 2450 10100 2450
+Wire Wire Line
+	10350 2150 10350 2450
+Connection ~ 10100 2050
+Wire Wire Line
+	9400 2050 10350 2050
+Wire Wire Line
+	10100 2350 10100 2550
+Wire Wire Line
+	10100 1900 10100 2150
+Wire Wire Line
+	1860 2965 2735 2965
+Wire Wire Line
+	6255 4195 7005 4195
+Wire Wire Line
+	1690 950  1690 1100
+Wire Wire Line
+	4155 4195 4455 4195
+Wire Wire Line
+	4155 4095 4455 4095
+Wire Wire Line
+	4155 3995 4455 3995
+Wire Wire Line
+	3855 3795 4455 3795
+Wire Wire Line
+	6255 3795 6755 3795
+Wire Wire Line
+	6255 3895 6755 3895
+Wire Wire Line
+	6255 3995 6755 3995
+Wire Wire Line
+	6255 4095 6755 4095
+Wire Wire Line
+	6255 4295 6755 4295
+Wire Wire Line
+	1190 950  1190 1000
+Wire Wire Line
+	5355 4995 5905 4995
+Text Label 6770 1725 0    60   ~ 0
+scl
+Text Label 6770 1825 0    60   ~ 0
+sda
+$Comp
+L C_Small C3
+U 1 1 59B15A84
+P 2335 3240
+F 0 "C3" H 2210 3340 50  0000 L CNN
+F 1 "100nF" H 2060 3140 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 2335 3240 50  0001 C CNN
+F 3 "" H 2335 3240 50  0000 C CNN
+	1    2335 3240
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C_Small C8
+U 1 1 59B15E22
+P 10100 2250
+F 0 "C8" H 9975 2350 50  0000 L CNN
+F 1 "100nF" H 9825 2150 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 10100 2250 50  0001 C CNN
+F 3 "" H 10100 2250 50  0000 C CNN
+	1    10100 2250
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC
