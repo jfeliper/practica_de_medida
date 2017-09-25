@@ -1,4 +1,4 @@
-update=lun 04 sep 2017 19:36:20 CEST
+update=lun 25 sep 2017 15:06:59 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -6,16 +6,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -73,3 +63,13 @@ LibName31=recom-rd
 LibName32=RO-1224S
 LibName33=/home/onsar/git_hub/osec/hardware/oscar_libreria.pretty/mp-1584
 LibName34=nano
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
