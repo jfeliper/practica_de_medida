@@ -49,5 +49,6 @@ void loop(void)
         //buildTemperatureMessage(1);
         buildPowerMessage(1);
       }
+
   }
   
