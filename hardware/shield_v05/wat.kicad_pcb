@@ -23,13 +23,13 @@
     (36 B.SilkS user)
     (37 F.SilkS user)
     (38 B.Mask user)
-    (39 F.Mask user hide)
+    (39 F.Mask user)
     (40 Dwgs.User user)
     (41 Cmts.User user)
     (42 Eco1.User user)
     (43 Eco2.User user)
     (44 Edge.Cuts user)
-    (45 Margin user hide)
+    (45 Margin user)
     (46 B.CrtYd user)
     (47 F.CrtYd user)
     (48 B.Fab user)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.8)
+    (last_trace_width 0.25)
     (user_trace_width 0.4)
     (user_trace_width 0.6)
     (user_trace_width 0.8)
@@ -72,7 +72,7 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x01060_80000000)
+      (layerselection 0x01060_80000001)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
