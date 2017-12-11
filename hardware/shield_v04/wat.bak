@@ -33,6 +33,7 @@ LIBS:recom-rd
 LIBS:RO-1224S
 LIBS:mp-1584
 LIBS:nano
+LIBS:current_sensor-cache
 LIBS:wat-cache
 EELAYER 25 0
 EELAYER END
@@ -1317,4 +1318,15 @@ Text Label 6765 1825 0    60   ~ 0
 intensidad_5
 Text Label 6765 1725 0    60   ~ 0
 intensidad_6
+$Comp
+L ACS712 U2
+U 1 1 5A27DD89
+P 8390 2580
+F 0 "U2" H 8190 2830 60  0000 C CNN
+F 1 "ACS712" H 8290 2330 60  0000 C CNN
+F 2 "oscar_libreria_huellas:ACS712" H 8390 2580 60  0001 C CNN
+F 3 "" H 8390 2580 60  0000 C CNN
+	1    8390 2580
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=mié 06 dic 2017 12:35:07 CET
+update=vie 08 dic 2017 11:21:45 CET
 version=1
 last_client=kicad
 [cvpcb]
@@ -73,4 +73,4 @@ LibName31=recom-rd
 LibName32=RO-1224S
 LibName33=/home/onsar/git_hub/osec/hardware/oscar_libreria.pretty/mp-1584
 LibName34=nano
-LibName35=current_sensor-cache
+LibName35=ACS712
