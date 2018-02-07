@@ -1,7 +1,0 @@
-shield_04
-Version para mejorar el comportamiento de la PCB con entradas a 5A
-* Aumentar la anchura de las pistas
-* incluir las resistencias de 0,100 ohm: TAH20PR100JE
-
-shield_05
-Cambio de resistencas por ACS712
