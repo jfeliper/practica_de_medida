@@ -10,35 +10,35 @@
 
 #define MAME_PWR_1 "Pinza_1"
 #define ENTER_1 A0
-#define CURRENT_CONST_1 500
+#define CURRENT_CONST_1 30
 
 #define MAME_PWR_2 "Pinza_2"
 #define ENTER_2 A1
-#define CURRENT_CONST_2 500
+#define CURRENT_CONST_2 30
 
 #define MAME_PWR_3 "Pinza_3"
 #define ENTER_3 A2
-#define CURRENT_CONST_3 500
+#define CURRENT_CONST_3 30
 
 #define MAME_PWR_4 "Pinza_4"
 #define ENTER_4 A3
-#define CURRENT_CONST_4 500
+#define CURRENT_CONST_4 30
 
 #define MAME_PWR_5 "Pinza_5"
 #define ENTER_5 A4
-#define CURRENT_CONST_5 1600
+#define CURRENT_CONST_5 30
 
 #define MAME_PWR_6 "Pinza_6"
 #define ENTER_6 A5
-#define CURRENT_CONST_6 1600
+#define CURRENT_CONST_6 30
 
 #define MAME_PWR_7 "Pinza_7"
 #define ENTER_7 A6
-#define CURRENT_CONST_7 1600
+#define CURRENT_CONST_7 30
 
 #define MAME_PWR_8 "Pinza_8"
 #define ENTER_8 A7
-#define CURRENT_CONST_8 1600
+#define CURRENT_CONST_8 30
 
 
 // *******************************************************
@@ -102,7 +102,7 @@ void buildPowerMessage(uint8_t output)
           }
         
         double Irms = emon1.calcIrms(1480);
-        double Pwr=(Irms*230.0); 
+        double Pwr=(Irms*220.0); 
       
         String value_pwr = String(Pwr,2);    
         if (output==0) 

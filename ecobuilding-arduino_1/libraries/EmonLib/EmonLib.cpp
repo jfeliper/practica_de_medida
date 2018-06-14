@@ -184,7 +184,7 @@ double EnergyMonitor::calcIrms(unsigned int Number_of_Samples)
   #endif
   // uint32_t init_time= millis();
   int enable_sumI = 0;
-    
+
   for (unsigned int n = 0; n < Number_of_Samples; n++)
   {
 
@@ -196,21 +196,21 @@ double EnergyMonitor::calcIrms(unsigned int Number_of_Samples)
     // Digital low pass filter extracts the 2.5 V or 1.65 V dc offset,
     //  then subtract this - signal is now centered on 0 counts.
     offsetI = (offsetI + (sampleI-offsetI)/1024);
-    
+
     // Serial.print("  offsetI = ");
     // Serial.println(offsetI);
-    
+
     filteredI = sampleI - offsetI;
 
     // Root-mean-square method current
     // 1) square current values
-    
+
     sqI = filteredI * filteredI;
-    
-    
+
+
     // 2) sum
-    if (sqI > 20.0) enable_sumI = 1;
-    sumI += sqI; 
+    if (sqI > 30.0) enable_sumI = 1;
+    sumI += sqI;
     // sumI += sqI;
     // Serial.print("* sqI = ");
     // Serial.println(sqI);
@@ -296,4 +296,3 @@ long EnergyMonitor::readVcc() {
   return (3300);                                  //Guess that other un-supported architectures will be running a 3.3V!
   #endif
 }
-
